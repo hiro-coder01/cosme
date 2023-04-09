@@ -1,0 +1,473 @@
+body {
+  width: 100%;
+  font-family: "Century";
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  /* first_section */
+  #first_section {
+    width: 100%;
+
+    position: relative;
+  }
+
+  .first_section {
+    width: 100%;
+    height: auto;
+    position: re;
+  }
+  .first_section_sp {
+    display: none;
+  }
+
+  /* second_section*/
+
+  #second_section {
+    display: flex;
+  }
+  .left {
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto 0 auto;
+    background-image: url(images/AdobeStock_493926114.jpeg);
+  }
+  .left_background {
+    position: absolute;
+    z-index: 0;
+  }
+
+  h2 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  h3 {
+    text-align: center;
+    font-size: 36px;
+  }
+  .reason {
+    text-align: center;
+    color: #00a7c5;
+    padding: 20px;
+  }
+  .small_reason {
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    bottom: 20px;
+  }
+  .right {
+    width: 50%;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(images/AdobeStock_339860029.jpeg);
+  }
+  .sale {
+    font-size: 60px;
+    color: red;
+  }
+  .sale_content {
+    text-align: center;
+    font-size: 30px;
+  }
+  .campaign_box {
+    position: relative;
+    top: 50px;
+  }
+  .campaign_box > div {
+    margin-bottom: 70px;
+    margin-top: 40px;
+    position: relative;
+  }
+  .campaign {
+    position: relative;
+  }
+  .introduce {
+    position: relative;
+    top: 60px;
+    text-align: center;
+  }
+  .introduce > img {
+    width: 60px;
+    margin: 30px auto 30px auto;
+    display: flex;
+  }
+
+  @import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+
+  .btn,
+  a.btn,
+  button.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 0.5rem;
+    position: relative;
+    top: 30px;
+  }
+
+  a.btn-tag {
+    padding: 1.25rem 3rem 1.25rem 80px;
+    color: #fff;
+    background: #f39800;
+  }
+
+  a.btn-tag:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 50px;
+    height: 100%;
+
+    content: "";
+
+    border-radius: 0.5rem 0 0 0.5rem;
+    background: rgba(0, 0, 0, 0.07);
+  }
+
+  a.btn-tag:hover {
+    color: #fff;
+    background: #ffa50e;
+  }
+
+  a.btn-tag i {
+    font-size: 120%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 50px;
+    padding: 1.5rem 0;
+
+    text-align: center;
+    letter-spacing: 0;
+  }
+
+  /* 利用方法 */
+  #forth_section {
+    border: dotted grey;
+    position: relative;
+    margin: 100px auto 100px auto;
+    width: 70%;
+    font-family: "ヒラギノ明朝";
+  }
+  .way {
+    display: flex;
+    margin: 0 auto 0 auto;
+    width: 80%;
+    justify-content: space-between;
+    font-size: 24px;
+  }
+  .way_box {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+  }
+  .way_1 {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* お客様の声 */
+  #fifth_section {
+    position: relative;
+    width: 60%;
+    margin: 100px auto 100px auto;
+    font-family: "ヒラギノ明朝";
+  }
+  .girls_box {
+    width: 50%;
+    display: flex;
+  }
+  .girls {
+    width: 300px;
+    margin: 0 auto 0 auto;
+    height: 300px;
+  }
+
+  .comment {
+    display: flex;
+    margin: 0 auto 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .comment_content {
+    width: 50%;
+    text-align: center;
+  }
+  .text {
+    text-align: left;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  /* FAQ */
+  #sixth_section {
+    width: 60%;
+    position: relative;
+    top: 50px;
+    margin: 0 auto 0 auto;
+    font-family: "ヒラギノ明朝";
+  }
+  .FAQ {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 40px;
+  }
+  .FAQ > p {
+    font-size: 24px;
+  }
+}
+/* スマートフォン用画面 */
+@media screen and (max-width: 767px) {
+  body {
+    min-width: 375px;
+    margin: 0;
+    font-size: 20px;
+  }
+  .first_section {
+    display: none;
+  }
+  .first_section_sp {
+    width: 100%;
+  }
+
+  /* * second_section*/
+
+  .left {
+    padding-bottom: 100px;
+    margin: 0 auto 0 auto;
+    background-image: url(images/AdobeStock_493926114.jpeg);
+  }
+  .left_background {
+    position: absolute;
+    z-index: 0;
+  }
+
+  h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 24px;
+  }
+  h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .reason {
+    text-align: center;
+    color: #00a7c5;
+    padding: 10px;
+  }
+  .small_reason {
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+  }
+  .right {
+    background-image: url(images/AdobeStock_339860029.jpeg);
+    padding-bottom: 100px;
+  }
+  .sale {
+    font-size: 24px;
+    color: red;
+  }
+  .sale_content {
+    text-align: center;
+    font-size: 20px;
+  }
+  .campaign_box {
+    position: relative;
+    top: 20px;
+  }
+  .campaign_box > div {
+    margin-bottom: 70px;
+    margin-top: 40px;
+    position: relative;
+  }
+  .campaign {
+    position: relative;
+  }
+  .introduce {
+    position: relative;
+    top: 30px;
+    text-align: center;
+  }
+  .introduce > img {
+    width: 60px;
+    margin: 30px auto 10px auto;
+    display: flex;
+  }
+
+  @import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+
+  .btn,
+  a.btn,
+  button.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 0.5rem;
+    position: relative;
+    top: 30px;
+  }
+
+  a.btn-tag {
+    padding: 1.25rem 3rem 1.25rem 80px;
+    color: #fff;
+    background: #f39800;
+  }
+
+  a.btn-tag:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 50px;
+    height: 100%;
+
+    content: "";
+
+    border-radius: 0.5rem 0 0 0.5rem;
+    background: rgba(0, 0, 0, 0.07);
+  }
+
+  a.btn-tag:hover {
+    color: #fff;
+    background: #ffa50e;
+  }
+
+  a.btn-tag i {
+    font-size: 120%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 50px;
+    padding: 1.5rem 0;
+
+    text-align: center;
+    letter-spacing: 0;
+  }
+
+  /* 利用方法 */
+  #forth_section {
+    border: dotted grey;
+    position: relative;
+    margin: 100px auto 100px auto;
+    width: 70%;
+    font-family: "ヒラギノ明朝";
+  }
+  .way {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+
+  .way_1 {
+    height: 70%;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+  /* お客様の声 */
+  #fifth_section {
+    position: relative;
+    margin: 100px 10px 100px 10px;
+    font-family: "ヒラギノ明朝";
+  }
+
+  .girls {
+    width: 300px;
+    margin: 0 auto 0 auto;
+    height: 300px;
+    display: none;
+  }
+
+  .comment {
+    display: flex;
+    margin: 0 auto 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .comment_content {
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+  }
+  /* FAQ */
+  #sixth_section {
+    width: 90%;
+    position: relative;
+    top: 50px;
+    margin: 0 auto 0 auto;
+    font-family: "ヒラギノ明朝";
+  }
+  .FAQ {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 40px;
+  }
+  .FAQ > p {
+    font-size: 16px;
+  }
+}
